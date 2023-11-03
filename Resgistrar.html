@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <link rel="stylesheet" href="css2.css">
+    <script type="text/javascript" src="calvo.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imgs/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+ </head>
+ <body>
+
+<div class="retagunlo">
+       
+    <form name="cadastro" method="POST" action="cadastro.php">
+        
+ 
+
+       <div class="conteudo">
+            <input type="text" name="usuario" placeholder="Digite seu nome de usuario" id="usuario"><br><br>
+            
+            
+            <label for="" id="senha">Senha: </label>
+            <input type="password" name="senha" id="senha" placeholder="Digite uma senha com mais de 8 caracteres"><br><br>
+
+
+
+            <label for="">Genero: </label>
+            <select name="genero" id="genero" >
+                <option value="">------------Genero-----------</option>
+                <option value="Masculino" name="masculino">Masculino</option>
+                <option value="Feminino" name="feminino">Feminino</option>
+                <option value="Nao gostaria de informar" name="binario">Não gostaria de informar</option>
+            </select><br><br>
+            <select name="estado" id="estado">
+                <option value="">--Escolha seu estado abaixo--</option>
+                <option value="">Acres</option>
+                <option value="">Alagoas</option>
+                <option value="">Amapa </option>
+                <option value="">Amazonas </option>
+                <option value="">Bahia </option>
+                <option value="">Ceara </option>
+                <option value="">Distrito Federal </option>
+                <option value="">Espirito Santo </option>
+                <option value="">Goias </option>
+                <option value="">Maranhao </option>
+                <option value="">Mato Grosso </option>
+                <option value="">Mato Grosso do Sul </option>
+                <option value="">Minas gerais </option>
+                <option value="">Pará </option>
+                <option value="">Paraibá </option>
+                <option value="">Paraná </option>
+                <option value="">Pernambuco </option>
+                <option value="">Piauí </option>
+                <option value="">Rio de janeiro </option>
+                <option value="">Rio grande do Sul</option>
+                <option value="">Rio grande do Norte </option>
+                <option value="">Rondonia </option>
+                <option value="">Roraima </option>
+                <option value="">Santa catarina </option>
+                <option value="">São paulo </option>
+                <option value="">Sergipe </option>
+                <option value="">Tocantins </option>
+
+            </select>
+            <p>já possui uma conta ?</p><a href="#">Entre já!</a>
+            <input type="submit" value="enviar" name="enviar" id="enviar" onclick="return validar()">
+        </form>
+    </div>
+    
+
+</div>
+
+    
+</body>
+</html>

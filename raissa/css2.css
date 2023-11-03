@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root {
+    --cor1: #676df5;
+    --cor2: #4eaff5;
+    --cor3: #937ff5;
+    --cor4: #f56e4e;
+    --cor5: #abd25f;
+}
+
+/* Centralize o conteúdo */
+center {
+    text-align: center;
+}
+
+
+.retagunlo {
+    width: 370px;
+    height: 550px;
+    margin: 0 auto; /* Centralizar o container horizontalmente */
+    padding: 20px; 
+    background: var(--cor1); 
+    border-radius: 30px;
+}
+
+.retagunlo2 {
+    width: 370px;
+    height: 400px;
+    margin: 0 auto; /* Centralizar o container horizontalmente */
+    padding: 20px; 
+    background: var(--cor1); 
+    border-radius: 30px;
+}
+
+
+
+
+
+
+h1 {
+    font-family: 'Raleway';
+    font-weight: 700; 
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 80%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid var(--cor2); 
+    border-radius: 6px;
+}
+
+label {
+    display: block; 
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'calt' off;
+    
+    color: #FFFFFF;
+}
+
+
+input[type="submit"] {
+    background: var(--cor5);
+    color: #FFFFFF;
+    font-weight: 700; 
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55), background-position 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55), box-shadow 500ms linear;
+    background-size: contain;
+    background-position: -250px center;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+p {
+ font-size: 14px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: -0.02em;
+font-feature-settings: 'calt' off;
+
+color: #FFFFFF;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor5); 
+}
+
+
+
+
+#cancelar {
+    width: 140px;
+    margin: 0 10px; 
+    display: inline-block; 
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #F56E4E; 
+    transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55), background-position 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55), box-shadow 500ms linear;
+    background-size: contain;
+    background-position: -250px center;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#cancelar:hover {
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+
+
+input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--cor2); 
+    border-radius: 6px;
+}
+
+
